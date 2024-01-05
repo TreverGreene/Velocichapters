@@ -40,6 +40,17 @@ ul{
     justify-content: flex-start;
 }
 
+.imageContainer{
+    display: flex;
+}
+
+.imageContainer div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 
 
 a{
