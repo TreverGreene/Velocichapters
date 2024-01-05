@@ -1,0 +1,48 @@
+html{
+    display: flex;
+    flex-direction: column;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: burlywood;
+    padding: 18px;
+}
+
+.logo{
+    flex:0;
+    font-size: 42px;
+}
+
+.navlinks{
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-direction: row;
+}
+
+.link{
+    color: blue;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.navlinks form{
+    flex:0;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+
+
+a{
+    text-decoration: none;
+    flex:0;
+}
