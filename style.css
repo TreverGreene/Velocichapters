@@ -42,16 +42,22 @@ ul{
 
 .imageContainer{
     display: flex;
+    padding: 25px;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .imageContainer div{
     display: flex;
+    padding:15px;
+    background-color: oldlace;
+    border-color: black;
+    border-style: ridge;
+    border-width: 3px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-
-
 
 a{
     text-decoration: none;
